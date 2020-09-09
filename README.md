@@ -58,7 +58,7 @@ Here is our little bonus: a port scanner inspired directly by a training2 that w
 
 **4. DDOS**
 
-For DDOS, the user must first enter the URL. For the "request" module, you need a URL that starts with http; a copy and paste is therefore sufficient. We created a loop and using slicing we are forced to start the url with http at least. Then the user enters the month, day, hour, minute of the attack; these were complicated to manage because they had to be converted several times. Then, these are received by the Slave which will test them in a great condition, which when respected down to the minute will execute 10 requests on the chosen URL.
+For DDOS, the user must first enter the URL. For the "request" module, you need a URL that starts with http copy and paste is therefore sufficient. We created a loop and using slicing we are forced to start the url with http at least. Then the user enters the month, day, hour, minute of the attack. These were complicated to manage because they had to be converted several times. Then, these are received by the Slave which will test them in a great condition, which when respected down to the minute will execute 10 requests on the chosen URL.
 
 <p align="center">
 <img alt="DDOS" src="https://user-images.githubusercontent.com/44061238/92574590-9440c180-f287-11ea-9947-ef9c77297180.png" height="280" />
