@@ -31,23 +31,27 @@ On the Master side, we assume that, when we start the code, the socket does not 
 **2. Keylogger**
 
 For our choice of log, we opted for Keylogger. In relation to the latter's skeleton, we were inspired by a person on the internet1. When we choose it, a second menu opens. This includes:
-a) START:
+
+	a) START:
 Starts keystroke logging. The Slave launches a thread which will asynchronously execute the keylogger function
 
-b) STOP:
+	b) STOP:
 Allows you to stop and save the log.txt file in the victim machine
 
-c) GET:
+	c) GET:
 Allows to recopy the file in a text file on our machine. We tried with the ftplib module, but were not successful. In addition, we also decided not to ask the user to choose the number of lines because, unlike others, our keylogger sticks everything in one sentence.
 These different choices are received by the Slave directly in its thread function (RecvServer)
 
 **3. PortScan**
+
 Here is our little bonus: a port scanner inspired directly by a training2 that we took. This works quite simply. We ask the user to enter the IP they want to scan. Then, in a list, we stored the ports that are the most "important" or in other words, the most likely to be open. Namely, an open port is a gateway for a hacker. Then, using a for, we step through the different ports and the if - else will attempt a connection on each of those ports.
 
 **4. DDOS**
+
 For DDOS, the user must first enter the URL. For the "request" module, you need a URL that starts with http; a copy and paste is therefore sufficient. We created a loop and using slicing we are forced to start the url with http at least. Then the user enters the month, day, hour, minute of the attack; these were complicated to manage because they had to be converted several times. Then, these are received by the Slave which will test them in a great condition, which when respected down to the minute will execute 10 requests on the chosen URL.
 
 **5. EXIT**
+
 Cut the connection of the sockets and exit the program.
 
 Thing to know:
