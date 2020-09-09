@@ -25,9 +25,11 @@ by default the IP is localhost and the port is 6666 (same as slave port)
 ## How it works ?
 
 **1. Login**
+
 On the Master side, we assume that, when we start the code, the socket does not start automatically. We have chosen this to avoid overconsuming bandwidth. However, on the Slave side, when the victim launches the program, the socket is directly “waiting for connection” to connect. So just press connect and an infinite loop will run until you connect.
 
 **2. Keylogger**
+
 For our choice of log, we opted for Keylogger. In relation to the latter's skeleton, we were inspired by a person on the internet1. When we choose it, a second menu opens. This includes:
 a) START:
 Starts keystroke logging. The Slave launches a thread which will asynchronously execute the keylogger function
