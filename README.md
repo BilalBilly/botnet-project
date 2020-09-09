@@ -13,6 +13,4 @@ How to run:
 	
 by default the IP is localhost and the port is 6666 (same as slave port)
 					
-
-![images]
-
+![images]https://user-images.githubusercontent.com/44061238/92570471-41184000-f282-11ea-9e8b-6fdac5598049.png
