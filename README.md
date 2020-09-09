@@ -31,7 +31,7 @@ On the Master side, we assume that, when we start the code, the socket does not 
 **2. Keylogger**
 
 <p align="center">
-<img alt="Keylogger" src="https://user-images.githubusercontent.com/44061238/92574665-aae71880-f287-11ea-852f-1d9d59c64c78.png" height="240" />
+<img alt="Keylogger" src="https://user-images.githubusercontent.com/44061238/92574665-aae71880-f287-11ea-852f-1d9d59c64c78.png" height="180" />
 </p>
 
 For our choice of log, we opted for Keylogger. In relation to the latter's skeleton, we were inspired by a person on the internet1. When we choose it, a second menu opens. This includes:
@@ -52,7 +52,7 @@ Here is our little bonus: a port scanner inspired directly by a training2 that w
 
 
 <p align="center">
-<img alt="Port Scan" src="https://user-images.githubusercontent.com/44061238/92573732-7aeb4580-f286-11ea-8bc5-3c710d1e37bd.png" height="180" />
+<img alt="Port Scan" src="https://user-images.githubusercontent.com/44061238/92573732-7aeb4580-f286-11ea-8bc5-3c710d1e37bd.png" height="280" />
 </p>
 
 
