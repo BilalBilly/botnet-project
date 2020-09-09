@@ -1,10 +1,10 @@
 # botnet-project
 Botnet create for school project
 
-	Requirements 
+!Requirements 
 
-pynput.keyboard
-pyfiglet
-termcolor
+	pynput.keyboard
+	pyfiglet
+	termcolor
 
 
