@@ -13,3 +13,6 @@ How to run:
 	
 by default the IP is localhost and the port is 6666 (same as slave port)
 					
+
+![images]
+
