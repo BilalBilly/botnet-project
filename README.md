@@ -19,7 +19,7 @@ by default the IP is localhost and the port is 6666 (same as slave port)
 					
 
   <p align="center">
-    <img alt="Evilginx2 Title" src="https://user-images.githubusercontent.com/44061238/92570471-41184000-f282-11ea-9e8b-6fdac5598049.png" height="380" />
+    <img alt="BotNet Logo" src="https://user-images.githubusercontent.com/44061238/92570471-41184000-f282-11ea-9e8b-6fdac5598049.png" height="380" />
   </p>
 
 ## How it works ?
@@ -45,6 +45,12 @@ These different choices are received by the Slave directly in its thread functio
 **3. PortScan**
 
 Here is our little bonus: a port scanner inspired directly by a training2 that we took. This works quite simply. We ask the user to enter the IP they want to scan. Then, in a list, we stored the ports that are the most "important" or in other words, the most likely to be open. Namely, an open port is a gateway for a hacker. Then, using a for, we step through the different ports and the if - else will attempt a connection on each of those ports.
+
+
+<p align="center">
+<img alt="Port Scan" src="(https://user-images.githubusercontent.com/44061238/92573732-7aeb4580-f286-11ea-8bc5-3c710d1e37bd.png" height="380" />
+</p>
+
 
 **4. DDOS**
 
