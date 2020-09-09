@@ -8,6 +8,11 @@ pynput.keyboard
 pyfiglet
 termcolor
 ```	
+## Thing to know:
+
+To connect more easily, you can first start the Master with the connection choice then the Slave. When a bot is already connected, the socket is therefore open and other bots will be able to connect without you having to press the 1 key again.
+For the keylogger option, each time you want to execute one of the three options (START, STOP, GET), you must first enter the keylogger menu by entering the 2 key.
+
 
 How to run:
 
@@ -32,13 +37,13 @@ On the Master side, we assume that, when we start the code, the socket does not 
 
 For our choice of log, we opted for Keylogger. In relation to the latter's skeleton, we were inspired by a person on the internet1. When we choose it, a second menu opens. This includes:
 
-a) START:
+**a) START:**
 Starts keystroke logging. The Slave launches a thread which will asynchronously execute the keylogger function
 
-b) STOP:
+**b) STOP:**
 Allows you to stop and save the log.txt file in the victim machine
 
-c) GET:
+**c) GET:**
 Allows to recopy the file in a text file on our machine. We tried with the ftplib module, but were not successful. In addition, we also decided not to ask the user to choose the number of lines because, unlike others, our keylogger sticks everything in one sentence.
 These different choices are received by the Slave directly in its thread function (RecvServer)
 
@@ -54,7 +59,3 @@ For DDOS, the user must first enter the URL. For the "request" module, you need 
 
 Cut the connection of the sockets and exit the program.
 
-Thing to know:
-
-To connect more easily, you can first start the Master with the connection choice then the Slave. When a bot is already connected, the socket is therefore open and other bots will be able to connect without you having to press the 1 key again.
-For the keylogger option, each time you want to execute one of the three options (START, STOP, GET), you must first enter the keylogger menu by entering the 2 key.
