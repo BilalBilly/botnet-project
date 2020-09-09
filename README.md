@@ -8,11 +8,6 @@ pynput.keyboard
 pyfiglet
 termcolor
 ```	
-## Thing to know:
-
-To connect more easily, you can first start the Master with the connection choice then the Slave. When a bot is already connected, the socket is therefore open and other bots will be able to connect without you having to press the 1 key again.
-For the keylogger option, each time you want to execute one of the three options (START, STOP, GET), you must first enter the keylogger menu by entering the 2 key.
-
 
 How to run:
 
@@ -58,4 +53,8 @@ For DDOS, the user must first enter the URL. For the "request" module, you need 
 **5. EXIT**
 
 Cut the connection of the sockets and exit the program.
+
+Thing to know:
+
+To connect more easily, you can first start the Master with the connection choice then the Slave. When a bot is already connected, the socket is therefore open and other bots will be able to connect without you having to press the 1 key again.For the keylogger option, each time you want to execute one of the three options (START, STOP, GET), you must first enter the keylogger menu by entering the 2 key.
 
