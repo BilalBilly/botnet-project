@@ -47,5 +47,5 @@ def bannière():
 
     """
     print("\033[31m", banner, "\033[0m")
-    print("                              by \033[32mBilal\033[0m", "et " "\033[35mYassine\033[0m")
+    print("                              by \033[32mBilal\033[0m")
 
